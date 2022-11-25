@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>NvrBrd</title>
+</head>
+<body>
+    <h1>Hi, are you BORED? Not anymore!</h1>
+    <button id="randomSubmit">Feeling Random?</button>
+    <div id="typeOptions">
+        <p>Filter by Activity Type:</p>
+        <div>
+            <input type="radio" id="educationType" >
+            <label for="educationType">Education</label>
+        </div>
+        <div>
+            <input type="radio" id="recreationalType" >
+            <label for="recreationalType">Recreation</label>
+        </div>
+        <div>
+            <input type="radio" id="socialType" >
+            <label for="socialType">Social</label>
+        </div>
+        <div>
+            <input type="radio" id="diyType" >
+            <label for="diyType">DIY</label>
+        </div>
+        <div>
+            <input type="radio" id="charityType" >
+            <label for="charityType">Charity</label>
+        </div>
+        <div>
+            <input type="radio" id="cookingType" >
+            <label for="cookingType">Cooking</label>
+        </div>
+        <button id="typeSubmit">Submit</button>
+    </div>
+    <div id="activityResult">
+
+    </div>
+</body>
+</html>
