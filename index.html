@@ -16,28 +16,41 @@
     <div id="typeOptions">
         <p>Filter by Activity Type:</p>
         <div>
-            <input type="radio" id="educationType" >
+<!--giving each radio input a name to group them all together so only 1 selection is allowed at a time -->
+            <input name="type" type="radio" id="educationType" value="education">
             <label for="educationType">Education</label>
         </div>
         <div>
-            <input type="radio" id="recreationalType" >
+            <input name="type" type="radio" id="recreationalType" value="recreation">
             <label for="recreationalType">Recreation</label>
         </div>
         <div>
-            <input type="radio" id="socialType" >
+            <input name="type" type="radio" id="socialType" value="social">
             <label for="socialType">Social</label>
         </div>
         <div>
-            <input type="radio" id="diyType" >
+            <input name="type" type="radio" id="diyType" value="diy">
             <label for="diyType">DIY</label>
         </div>
         <div>
-            <input type="radio" id="charityType" >
+            <input name="type" type="radio" id="charityType" value="charity">
             <label for="charityType">Charity</label>
         </div>
         <div>
-            <input type="radio" id="cookingType" >
+            <input name="type" type="radio" id="cookingType" value="cooking">
             <label for="cookingType">Cooking</label>
+        </div>
+        <div>
+            <input name="type" type="radio" id="relaxationType" value="relaxation">
+            <label for="relaxationType">Relaxation</label>
+        </div>
+        <div>
+            <input name="type" type="radio" id="musicType" value="music">
+            <label for="musicType">Music</label>
+        </div>
+        <div>
+            <input name="type" type="radio" id="busyworkType" value="busywork">
+            <label for="busyworkType">Busywork</label>
         </div>
         <button id="typeSubmit">Submit</button>
     </div>
